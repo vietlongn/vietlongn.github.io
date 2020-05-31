@@ -88,13 +88,12 @@ defaults:
 # Site Author
 author:
   name: Long Nguyen
-  picture:
+  picture: /images/me.jpeg
   email: vietlongn@outlook.com
-  twitter:
   links:
-    - title:
-      url:
-      icon:
+    - title: Facebook
+      url: https://facebook.com/vietlongn
+      icon: facebook-f
 
 # Footer Links
 footer_links:
