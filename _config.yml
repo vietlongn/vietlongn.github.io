@@ -25,23 +25,23 @@ date_format: "%B %-d, %Y"
 read_time: true
 words_per_minute: 200
 mathjax:
-  enable: true # MathJax equations, e.g. true, false (default)
+	enable: true # MathJax equations, e.g. true, false (default)
 google_fonts:
-  - name: "Source Sans Pro"
-    weights: "400,400i,700,700i"
-  - name: "Lora"
-    weights: "400,400i,700,700i"
+	- name: "Source Sans Pro"
+		weights: "400,400i,700,700i"
+	- name: "Lora"
+		weights: "400,400i,700,700i"
 google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 
 # Liquid
 liquid:
-  error_mode: strict
+	error_mode: strict
 
 # Build settings
 permalink: /:categories/:title/
 markdown: kramdown
 feed:
-  path: atom.xml
+	path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 10
@@ -67,36 +67,33 @@ tag_archive_path: "/tags/#"
 #   - vendor/ruby/
 
 plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-paginate
+	- jekyll-seo-tag
+	- jekyll-sitemap
+	- jekyll-feed
+	- jekyll-paginate
 
 # Front Matter Defaults
 defaults:
-  # Posts defaults
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      share: true
+	# Posts defaults
+	- scope:
+			path: "_posts"
+			type: posts
+		values:
+			layout: post
+			share: true
 
 # Site Author
 author:
-  name: Long Nguyen
-  picture: /images/me.jpeg
-  email: vietlongn@outlook.com
-  links:
-    - title: Facebook
-      url: https://facebook.com/vietlongn
-      icon: fas facebook-f
+	name: Long Nguyen
+	picture: /images/me.jpeg
+	email: vietlongn@outlook.com
+	links:
+		- title: Facebook
+			url: https://facebook.com/vietlongn
+			icon: fas facebook-f
 
 # Footer Links
 footer_links:
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
-	- title: GitHub
-		url: https://github.com/mmistakes
-		icon: fab fa-github-square
+	- title: Feed
+		url: atom.xml
+		icon: fas fa-rss-square
