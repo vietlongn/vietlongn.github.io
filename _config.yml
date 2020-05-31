@@ -85,7 +85,7 @@ defaults:
 # Site Author
 author:
   name: Long Nguyen
-  picture: /images/me.jpeg
+  picture: /images/me.jpg
   email: vietlongn@outlook.com
   links:
     - title: Facebook
