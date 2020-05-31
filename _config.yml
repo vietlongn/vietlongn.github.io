@@ -16,14 +16,14 @@
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
 skin: "/assets/css/skins/dark.css"
 locale: en-US
-title: "Coding Sven"
-description: "It really is the best."
+title: "It's Long"
+description: "This is my personal blog. Hope you will found something helpful here."
 baseurl: /
 url: https://vietlongn.github.io
 logo: /images/logo.png
 date_format: "%B %-d, %Y"
 read_time: true
-words_per_minute: 200
+words_per_minute: 150
 mathjax:
   enable: true # MathJax equations, e.g. true, false (default)
 google_fonts:
@@ -94,6 +94,6 @@ author:
 
 # Footer Links
 footer_links:
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
+  # - title: Feed
+  #   url: atom.xml
+  #   icon: fas fa-rss-square
