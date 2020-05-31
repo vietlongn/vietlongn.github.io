@@ -1,13 +1,13 @@
 ---
 title: "How to setup WSL for better development environment"
 categories:
-  - Dev setup
-tags:
   - development
+tags:
   - wsl
   - ubuntu
   - windows
   - docker
+  - environment
 last_modified_at: 2020-05-31T14:25:52+07:00
 ---
 
